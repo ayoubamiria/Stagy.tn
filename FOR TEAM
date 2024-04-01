@@ -9,3 +9,6 @@ parmi les technologies a utiliser :
 firebase pour le backend 
 vue.js pour le frontend
 pour faciliter le travail vous pouvez utiliser bootstrap
+##Attention
+jamais vous mettez votre travail directement dans le main 
+il faut le tester avant et le valider 
