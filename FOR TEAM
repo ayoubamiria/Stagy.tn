@@ -5,3 +5,7 @@ Processus qu'on va le suivre dans le developpement en cours
 4/ page d'evaluation (compte entreprise /donner avis /consulter avis)
 5/ messagerie
 6/ notification
+parmi les technologies a utiliser :
+firebase pour le backend 
+vue.js pour le frontend
+pour faciliter le travail vous pouvez utiliser bootstrap
