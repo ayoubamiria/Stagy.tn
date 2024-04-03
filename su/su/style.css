@@ -1,0 +1,300 @@
+div{
+	transition: transform 2s;
+}
+#lo{
+
+ 	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	gap: 20px;
+
+ 	width: 60px;
+	height: 30px;
+	left: 1636px;
+	top:  150px;
+	background: url(login.png) ;
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+
+} 
+/* image 20 */
+body{
+
+zoom:100%;
+
+background: #FFFFFF;
+background: url(baack.png);
+position: absolute;
+
+
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: top-left;
+size: landscape;
+}
+#search{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+gap: 1px;
+
+width: 900px;
+height: 99px;
+
+background: #FFFFFF;
+border-radius: 12px;
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+select{
+	/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 20px;
+
+width: 210px;
+height: 25px;
+
+opacity: 0.7;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+border-color: white;
+
+}
+#louta{
+	 background: url("zina 2.png");
+	 background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center top;
+	 height:100%;
+	 height:auto !important;
+
+    overflow-y:scroll;
+
+
+}
+ #loutalouta{
+ background-color: white;
+width: 100%;
+}
+#domaine{
+	/* RICERCA/BOX CERCA */
+
+box-sizing: border-box;
+
+
+
+ background: #FEFEFE;
+border: 2.50581px solid #0C6F8F;
+box-shadow: -12.5291px 20.0465px 15.0349px rgba(240, 161, 15, 0.1);
+border-radius: 25.0581px;
+
+}
+input[type=text]{
+	/* Form */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 13.782px 20.0465px;
+gap: 5.01px;
+ 
+/* Bianco */
+background: #FEFEFE;
+/* GRIGIO TESTO */
+border: 1.25291px solid ;
+border-radius: 187.936px;
+
+}
+input[type=text]:focus{
+	/* Form */
+
+box-sizing: border-box;
+
+ display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 13.782px 20.0465px;
+gap: 5.01px;
+ 
+
+ background: #FEFEFE;
+border: 2.50581px solid #217BF4;
+border-radius: 187.936px;
+
+
+}
+#cherceher{
+	/* Pulsanti */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12.5291px 27.564px;
+gap: 10.02px;
+ 
+
+background: rgba(38, 68, 146, 0.32);
+border-radius: 175.407px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+ ;
+/* identical to box height */
+ 
+/* black */
+color: #333333;
+
+
+ flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+#cherceher:active{
+	transform: translateY(4px);
+
+}
+#filtrage{
+
+box-sizing: border-box;
+
+background-color: white;
+
+border: 2px solid #0A5D77;
+border-radius: 30px;
+box-shadow: -12.5291px 20.0465px 15.0349px rgba(240, 161, 15, 0.1);
+
+}
+#categorie{
+
+background-color: white;
+border-color: transparent;
+font-family: 'Poppins';
+font-style: normal;
+
+
+
+
+color: #000000;
+
+
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#categorie:active .arrow:active {
+		  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+
+}
+#categorie:focus{
+
+box-sizing: border-box;
+
+
+
+background: #FFFFFF;
+mix-blend-mode: hard-light;
+border: 1px solid #145064;
+border-radius: 30px;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 10px;
+color: #000000;
+
+
+
+}
+input[type=checkbox]{
+
+box-sizing: border-box;
+
+
+border: 0.5px solid #000000;
+
+}
+input[type=checkbox]:after{
+
+box-sizing: border-box;
+
+
+border: 0.5px solid #000000;
+
+}
+#myDIV, #myDIV1, #myDIV2,#myDIV3{
+
+
+
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	align-items: center;
+
+color: #000000;
+}
+#photo{
+	background-image: url("bot.png");
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100%;
+    border: black;
+    position: fixed;
+}
+      	.imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+html , body {
+	height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.center-fit {
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
