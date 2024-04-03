@@ -13,3 +13,8 @@ pour faciliter le travail vous pouvez utiliser bootstrap
 jamais vous mettez votre travail directement dans le main 
 il faut le tester avant et le valider 
 chaque membre de l'equipe doit cree une branche spe a lui meme 
+commandes git utiles:
+git config --global user.name " nom"
+git config --global user.email " mail mte3ik"
+git remote add essmdossier url
+git branch
