@@ -1,0 +1,111 @@
+/*Pour la police d'écriture google font*/
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins" , sans-serif;
+    box-sizing: border-box;
+    transition: all.2s linear;
+    text-decoration: none;
+    border: none;
+    
+}
+
+
+header
+{
+background:url(./image.png);
+height:100vh;
+background-size:cover;
+background-position: center;
+padding:10px 10px;
+}
+
+.logo img
+{float: left;
+width: 150px;
+height:auto;
+
+}
+ul
+{
+list-style: none;
+float: right;
+display:flex;
+margin-top: 20px;
+
+}
+ul li a
+{
+    text-decoration:none;
+    color:rgb(14, 20, 105);
+    padding: 10px;
+    margin:2px;
+}
+
+ul li a:hover
+{
+background:white;
+
+}
+
+ul li.active a
+{
+  background:#efff;
+  color:rgb(14, 20, 105);   
+}
+#principale
+{max-width:114rm;
+ margin:0 auto;
+}
+.titre
+{
+position:absolute;
+top:30%;
+right:75%;
+}
+
+.titre h1
+{
+ color:black;
+ font-size: 20px;
+
+}
+#a-propos
+{
+height:100vh;
+margin:0 10%;
+
+}
+.title-section
+{
+    text-align:center;
+    margin-top:50px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#675afe;
+    font-size:25px;
+}
+.sub-title-section
+{
+text-align:center;
+font-weight:bold;
+text-transform:capitalize;
+font-size:20px;
+}
+.description-photo
+{
+ display:flex;
+ justify-content:space-between;
+ margin-top:50px;
+ height:358px;   
+}
+.description-photo.desc
+{width:60%;
+
+}
+.desc
+{
+left:30%;
+right:30%;
+}
