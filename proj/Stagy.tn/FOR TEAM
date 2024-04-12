@@ -1,0 +1,20 @@
+Processus qu'on va le suivre dans le developpement en cours
+1/ page d'acceuil (avant se connecter et apres + recherche )
+2/ page d'inscription (login et logout)
+3/ page compte user
+4/ page d'evaluation (compte entreprise /donner avis /consulter avis)
+5/ messagerie
+6/ notification
+parmi les technologies a utiliser :
+firebase pour le backend 
+vue.js pour le frontend
+pour faciliter le travail vous pouvez utiliser bootstrap
+##Attention
+jamais vous mettez votre travail directement dans le main 
+il faut le tester avant et le valider 
+chaque membre de l'equipe doit cree une branche spe a lui meme 
+commandes git utiles:
+git config --global user.name " nom"
+git config --global user.email " mail mte3ik"
+git remote add essmdossier url
+git branch
