@@ -76,8 +76,8 @@ text-align:center;
 font-size:4rem;
 color:#333;
 padding:1rem;
-margin:1rem 0;
-background: #1d72a6;;
+margin:2rem 0;
+background: #d7dde1;;
 }
 
 .heading span
@@ -96,14 +96,14 @@ color:var(--pink);
 }
 .about.row.video-container
 {
- flex:1 1 40rem;
+ flex:1 1 60rem;
  position:relative;   
 }
 .about.row.video-container image
 {
 width:100%;
-border:1.5rem solid #ffff;
-border-radius: .5rem;
+border:1.3rem solid #ffff;
+border-radius:7rem;
 height:100%;
 object-fit:cover;
 
@@ -124,8 +124,8 @@ object-fit:cover;
 font-size: 1.5rem;
 color:#999;
 padding:5rem 0;
-padding-top: 1rem;
-line-height:1.5;
+padding-top: 5rem;
+line:10px;
 
 }
 .footer.box
